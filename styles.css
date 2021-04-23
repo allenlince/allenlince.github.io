@@ -81,8 +81,6 @@ address{
     justify-content: center;
     border-style: solid;
     border-width: 20px;
-    
-
 }
 .blocklist > li > div{
     flex-grow: 1;
@@ -102,4 +100,12 @@ border-right: 20px solid #eee;
 flex-direction: row-reverse;
 text-align: right;
 border-left: 20px solid #eee;
+}
+.prose{
+    text-align: justify;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.prose p{
+    margin: 20px auto;
 }
